@@ -93,7 +93,7 @@ namespace CSVParser
                     }
                     
 
-                    using (StreamReader readFile = File.OpenText(@"F:..\..\output.json"))
+                    using (StreamReader readFile = File.OpenText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\", "output.json")))
                     {
                         string json = readFile.ReadToEnd();
                         if (json == "")
@@ -137,7 +137,7 @@ namespace CSVParser
 
 
 
-                    StreamWriter file = File.CreateText(@"..\..\output.json");
+                    StreamWriter file = File.CreateText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\", "output.json"));
                     JsonSerializer serializer = new JsonSerializer();
                     serializer.Serialize(file, JsonFile);
                     file.Close();
@@ -184,7 +184,7 @@ namespace CSVParser
             //So it will calculate number of dailyClicks/dailyViews from last time. When u want to stop application just hit enter key
             //Value should be changed to 24* 60*60* 1000 so it would run every day
 
-            aTimer = new Timer( 60 * 1000);
+            aTimer = new Timer( 3 * 1000);
             aTimer.Elapsed += OnTimedEvent;
             aTimer.AutoReset = true;
             aTimer.Enabled = true;
