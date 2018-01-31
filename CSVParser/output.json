@@ -1,0 +1,62 @@
+{
+  "Data": 
+  [
+    {
+      "blogID": 1,
+      "IdentificationData": [
+        {
+          "blogID": 1,
+          "Date": "2017-12-03",
+          "Clicks": 10,
+          "Views": 8,
+          "DailyClicks": 10,
+          "DailyViews": 8
+        },
+        {
+          "blogID": 1,
+          "Date": "2017-12-03",
+          "Clicks": 10,
+          "Views": 8,
+          "DailyClicks": 0,
+          "DailyViews": 0
+        },
+        {
+          "blogID": 1,
+          "Date": "2017-12-03",
+          "Clicks": 10,
+          "Views": 8,
+          "DailyClicks": 0,
+          "DailyViews": 0
+        }
+      ]
+    },
+    {
+      "blogID": 2,
+      "IdentificationData": [
+        {
+          "blogID": 2,
+          "Date": "2017-12-03",
+          "Clicks": 15,
+          "Views": 12,
+          "DailyClicks": 15,
+          "DailyViews": 12
+        },
+        {
+          "blogID": 2,
+          "Date": "2017-12-03",
+          "Clicks": 15,
+          "Views": 12,
+          "DailyClicks": 0,
+          "DailyViews": 0
+        },
+        {
+          "blogID": 2,
+          "Date": "2017-12-03",
+          "Clicks": 15,
+          "Views": 12,
+          "DailyClicks": 0,
+          "DailyViews": 0
+        }
+      ]
+    }
+  ]}

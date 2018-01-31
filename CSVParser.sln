@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSVParser", "CSVParser\CSVParser.csproj", "{EF07F131-6AFE-4162-9927-1F1119B1FFFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF07F131-6AFE-4162-9927-1F1119B1FFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF07F131-6AFE-4162-9927-1F1119B1FFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF07F131-6AFE-4162-9927-1F1119B1FFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF07F131-6AFE-4162-9927-1F1119B1FFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C70FE16-68F4-4343-A047-2F7E836F34D3}
+	EndGlobalSection
+EndGlobal
